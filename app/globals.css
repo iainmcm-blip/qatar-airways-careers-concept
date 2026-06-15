@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Qatar Airways — careers concept brand tokens
+   Burgundy #660033 (Pantone 229 C) = primary identity.
+   Warm charcoal/oyster greys = canvases & text.
+   Champagne gold = sparing luxury accent (Qsuite / lounge cue).
+
+   Token roles are kept from the source system so the whole
+   site re-skins from this one file:
+     indigo  = warm burgundy-black canvases + charcoal text
+     lavender = primary Qatar burgundy (brand)
+     peach   = champagne gold accent
+   ============================================================ */
+@theme {
+  /* Indigo — warm burgundy-black canvases + charcoal neutral text */
+  --color-indigo-950: #140008;
+  --color-indigo-900: #1f020e;
+  --color-indigo-800: #2c0816;  /* deep — headings on light read as warm near-black */
+  --color-indigo-700: #3d1322;
+  --color-indigo-600: #512131;
+  --color-indigo-500: #6b4a55;  /* body / secondary text — warm oyster grey */
+  --color-indigo-400: #8f727c;
+  --color-indigo-300: #b7a0a8;
+  --color-indigo-200: #ddd0d5;
+  --color-indigo-100: #f6f1f3;
+  --color-indigo-vivid: #660033;
+
+  /* Lavender — primary Qatar burgundy (signature = 500) */
+  --color-lavender-900: #2a0014;
+  --color-lavender-700: #660033;  /* official Qatar burgundy */
+  --color-lavender-500: #8a1f4f;  /* signature — links, primary actions */
+  --color-lavender-400: #a83565;  /* brighter burgundy for accents on dark */
+  --color-lavender-300: #c66589;
+  --color-lavender-200: #e0a3bd;
+  --color-lavender-100: #f6e0ea;
+  --color-lavender-50: #fcf2f6;
+
+  /* Champagne gold — luxury accent (use sparingly) */
+  --color-peach-500: #b08d43;
+  --color-peach-400: #c7a563;  /* signature gold — dots, fine accents */
+  --color-peach-300: #d8bd86;
+  --color-peach-200: #e9d6b0;
+  --color-peach-100: #f6ecd8;
+
+  /* Ink / neutral surfaces */
+  --color-ink: #140008;
+  --color-cloud: #f9f6f4;  /* warm oyster off-white */
+
+  /* Radius system */
+  --radius-sm: 0.5rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.75rem;
+  --radius-xl: 2.5rem;
+  --radius-pill: 100px;
+
+  /* Fonts */
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --font-editorial: var(--font-fraunces), Georgia, serif;
+}
+
+/* Signature gradients — burgundy canvases with a sparing gold shimmer */
+:root {
+  --grad-hero: radial-gradient(120% 120% at 80% 0%, rgba(168, 53, 101, 0.32) 0%, rgba(102, 0, 51, 0) 45%),
+    radial-gradient(90% 90% at 0% 100%, rgba(199, 165, 99, 0.16) 0%, rgba(199, 165, 99, 0) 50%),
+    linear-gradient(150deg, #1f020e 0%, #3d0a20 45%, #560029 70%, #660033 100%);
+  --grad-button: linear-gradient(120deg, #660033 0%, #8a1f4f 55%, #a83565 100%);
+  --grad-button-hover: linear-gradient(120deg, #75003a 0%, #9a2a5b 55%, #b84675 100%);
+  --grad-iris: linear-gradient(120deg, #660033 0%, #8a1f4f 38%, #b84675 60%, #c7a563 100%);
+  --grad-panel-light: linear-gradient(160deg, #fcf2f6 0%, #f6ecd8 100%);
+  /* footer — burgundy spectrum into oyster */
+  --grad-footer: linear-gradient(90deg, #2c0816 0%, #660033 50%, #8a1f4f 100%);
+}
+
+@layer base {
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-lavender-400);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  body {
+    background: #ffffff;
+    color: var(--color-indigo-700);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-lavender-500);
+    color: #fff;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    color: var(--color-indigo-800);
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    font-weight: 600;
+  }
+}
+
+/* Utility helpers */
+.bg-hero-iris { background: var(--grad-hero); }
+.bg-button-iris { background: var(--grad-button); }
+.bg-button-iris:hover { background: var(--grad-button-hover); }
+.bg-iris { background: var(--grad-iris); }
+.bg-panel-light { background: var(--grad-panel-light); }
+.bg-footer-iris { background: var(--grad-footer); }
+.font-editorial { font-family: var(--font-editorial); }
+.text-iris {
+  background: var(--grad-iris);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.shimmer-line {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(138,31,79,0.6), rgba(199,165,99,0.5), transparent);
+}
+.balance { text-wrap: balance; }
