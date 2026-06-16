@@ -53,8 +53,8 @@ export default function LifePage() {
         eyebrow="More than a job"
         title="What it feels like to work here"
         intro="This isn't a list of perks. It's a portrait of a place built on Qatari hospitality, digital ambition, and the rare energy of creating something genuinely new."
-        video="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        videoPoster="/brand/doha-poster.jpg"
+        image="/brand/masthead-life.jpg"
+        imageAlt="The pastel waterfront of Doha's Mina District with the city skyline beyond"
         imagePosition="object-center"
       />
 

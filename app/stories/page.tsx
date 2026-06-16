@@ -37,8 +37,8 @@ export default function StoriesPage() {
         eyebrow="Voices of Qatar Airways"
         title="Real people. Real journeys."
         intro="A genuinely editorial space to hear from the people building Qatar Airways — in their own words, about what working here is actually like."
-        video="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        videoPoster="/brand/stories-fleet-poster.jpg"
+        image="/brand/masthead-stories.jpg"
+        imageAlt="An Al Maha airport assistant greeting a passenger at Hamad International"
         imagePosition="object-center"
       />
 

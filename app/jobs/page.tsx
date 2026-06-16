@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { Container } from "@/components/layout/Container";
 import { Section } from "@/components/layout/Section";
@@ -18,7 +19,16 @@ export default function JobsPage() {
     <>
       {/* Hero with search */}
       <section className="relative overflow-hidden bg-hero-iris pt-40 pb-16 md:pt-44 md:pb-20">
-        <Container className="relative">
+        <Image
+          src="/brand/masthead-jobs.jpg"
+          alt="A traveller relaxing at The Orchard at Hamad International Airport"
+          fill
+          priority
+          sizes="100vw"
+          className="absolute inset-0 object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-indigo-950/94 via-indigo-950/72 to-indigo-950/45" />
+        <Container className="relative z-10">
           <Reveal className="max-w-3xl">
             <p className="mb-5 inline-flex items-center gap-2 rounded-pill border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-lavender-100 backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-peach-400" />

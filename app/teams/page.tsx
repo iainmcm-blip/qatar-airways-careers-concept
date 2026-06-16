@@ -26,9 +26,9 @@ export default function TeamsPage() {
         eyebrow="Find your team"
         title="Where do you fit in the story?"
         intro="Every great flight is the work of many teams. Explore what each one does, what the day-to-day really involves, and where you could begin."
-        video="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        videoPoster="/brand/teams-cabin-poster.jpg"
-        imagePosition="object-center"
+        image="/brand/masthead-teams.jpg"
+        imageAlt="A Qatar Airways cabin crew member in the Qsuite cabin"
+        imagePosition="object-[center_30%]"
       />
 
       {/* Team selector */}

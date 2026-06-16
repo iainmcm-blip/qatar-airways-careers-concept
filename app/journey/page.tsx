@@ -29,8 +29,9 @@ export default function JourneyPage() {
         eyebrow="Here to help"
         title="Exactly what to expect"
         intro="Applying for an airline role shouldn't be a mystery. Here's your process by role type, practical tips, answers to common questions, and how to keep yourself safe from recruitment fraud."
-        video="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        videoPoster="/brand/journey-canopy-poster.jpg"
+        image="/brand/masthead-journey.jpg"
+        imageAlt="A Qatar Airways A350 in flight over turquoise islands at sunset"
+        imagePosition="object-center"
       />
 
       {/* Commitment strip */}

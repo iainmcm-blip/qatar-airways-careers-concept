@@ -31,9 +31,9 @@ export default function QatariNationalsPage() {
         eyebrow="For the talent of Qatar"
         title="Your nation. Your wings. Your future."
         intro="Al Darb is how Qatar Airways Group invests in Qatari talent — a structured Qatarisation pathway from where you are today to leadership across the airline, the airport and beyond. Your ambition and the nation's ambition, taking off together."
-        image="/brand/al-darb-banner.jpg"
-        imageAlt="Qatari heritage architecture beneath the national flag in Doha"
-        imagePosition="object-[12%_center]"
+        image="/brand/masthead-qatari.jpg"
+        imageAlt="A family outside the National Museum of Qatar in Doha"
+        imagePosition="object-center"
       >
         <div className="flex flex-wrap gap-3">
           <Button href="/jobs?saudi=1" variant="light" size="lg">
