@@ -17,7 +17,7 @@ export function LifeInDoha() {
           <Reveal>
             <div className="relative h-[340px] overflow-hidden rounded-xl md:h-[460px]">
               <Image
-                src="/brand/discover-riyadh.jpg"
+                src="/brand/doha-skyline.jpg"
                 alt="The Doha skyline rising along the Corniche"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

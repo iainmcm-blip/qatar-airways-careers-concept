@@ -34,7 +34,7 @@ const CULTURE = [
 
 const BENEFITS = [
   { t: "Travel benefits", b: "Discover a growing global network with travel privileges for you and your family.", img: "/brand/787-sunset.jpg" },
-  { t: "Relocation & accommodation", b: "Comprehensive relocation and accommodation support to help you settle in Qatar.", img: "/brand/discover-riyadh.jpg" },
+  { t: "Relocation & accommodation", b: "Comprehensive relocation and accommodation support to help you settle in Qatar.", img: "/brand/doha-skyline.jpg" },
   { t: "Learning & development", b: "Training and development programmes that open doors to new skills and everyday learning at every stage.", img: "/brand/learning-development.jpg" },
   { t: "Health & protection", b: "Generous compensation, health cover and protection built around the realities of aviation life.", img: "/brand/health-protection.jpg" },
 ];
@@ -54,7 +54,7 @@ export default function LifePage() {
         title="What it feels like to work here"
         intro="This isn't a list of perks. It's a portrait of a place built on Qatari hospitality, digital ambition, and the rare energy of creating something genuinely new."
         video="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        videoPoster="/brand/riyadh-summer-poster.jpg"
+        videoPoster="/brand/doha-poster.jpg"
         imagePosition="object-center"
       />
 
@@ -234,9 +234,9 @@ export default function LifePage() {
         />
         <div className="mt-12 grid gap-5 md:grid-cols-3">
           {[
-            { img: "/brand/discover-riyadh.jpg", t: "A city on the rise", b: "Safe, ambitious and welcoming, with a quality of life that surprises people who arrive.", video: "https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4", poster: "/brand/city-rise-poster.jpg" },
-            { img: "/brand/visit-sa-fit.jpg", t: "Climate & lifestyle", b: "350+ days of sunshine, a thriving food and culture scene, and easy access to the wider Gulf region." },
-            { img: "/brand/jeddah-fit.jpg", t: "Healthcare & connectivity", b: "World-class healthcare, international schools, and a hub that connects you to the world." },
+            { img: "/brand/doha-skyline.jpg", t: "A city on the rise", b: "Safe, ambitious and welcoming, with a quality of life that surprises people who arrive.", video: "https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4", poster: "/brand/city-rise-poster.jpg" },
+            { img: "/brand/visit-qatar-fit.jpg", t: "Climate & lifestyle", b: "350+ days of sunshine, a thriving food and culture scene, and easy access to the wider Gulf region." },
+            { img: "/brand/doha-fit.jpg", t: "Healthcare & connectivity", b: "World-class healthcare, international schools, and a hub that connects you to the world." },
           ].map(
             (
               c: { img: string; t: string; b: string; video?: string; poster?: string },

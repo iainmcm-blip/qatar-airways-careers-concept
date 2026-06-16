@@ -24,7 +24,7 @@ export const PROGRAMMES: Programme[] = [
       "Strong communication and leadership potential",
       "Fluent in Arabic and English",
     ],
-    image: "/brand/nawat-crew-aircraft.jpg",
+    image: "/brand/al-darb-crew.jpg",
     imagePosition: "object-center",
     real: true,
   },

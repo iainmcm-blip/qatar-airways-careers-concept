@@ -61,7 +61,7 @@ export const TEAMS: Team[] = [
   {
     slug: "operations-corporate",
     name: "Operations & Corporate",
-    image: "/brand/riyadh-air-hq.jpg",
+    image: "/brand/qa-team.jpg",
     imagePosition: "object-center",
     tagline: "The expertise behind the world's best airline",
     blurb:

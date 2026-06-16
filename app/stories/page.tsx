@@ -18,9 +18,9 @@ export const metadata: Metadata = {
 };
 
 const VIDEOS = [
-  { t: "Why I chose Qatar Airways", team: "Cabin Crew", img: "/brand/nawat-cabin-crew.jpg" },
-  { t: "Inside the Al Darb pathway", team: "Qatari Nationals", img: "/brand/scholarship-banner.jpg" },
-  { t: "Relocating to Doha", team: "International", img: "/brand/discover-riyadh.jpg" },
+  { t: "Why I chose Qatar Airways", team: "Cabin Crew", img: "/brand/cabin-crew.jpg" },
+  { t: "Inside the Al Darb pathway", team: "Qatari Nationals", img: "/brand/al-darb-banner.jpg" },
+  { t: "Relocating to Doha", team: "International", img: "/brand/doha-skyline.jpg" },
 ];
 
 const JOURNEYS = [

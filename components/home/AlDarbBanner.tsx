@@ -12,7 +12,7 @@ export function AlDarbBanner() {
           The section's iridescent bg shows behind the text on mobile only. */}
       <div className="relative h-72 w-full sm:h-96 md:absolute md:inset-0 md:h-full">
         <Image
-          src="/brand/nawat-cabin-crew.jpg"
+          src="/brand/cabin-crew.jpg"
           alt="A Qatar Airways cabin crew member before the aircraft"
           fill
           sizes="100vw"

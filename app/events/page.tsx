@@ -24,7 +24,7 @@ export default function EventsPage() {
         eyebrow="Meet us"
         title="Come and meet Qatar Airways"
         intro="Open days, webinars and career fairs across Qatar and online — designed so there's something relevant for you, wherever you are."
-        image="/brand/discover-riyadh.jpg"
+        image="/brand/doha-skyline.jpg"
         imageAlt="Doha skyline"
       >
         <div className="grid max-w-3xl grid-cols-2 gap-3 sm:grid-cols-4">

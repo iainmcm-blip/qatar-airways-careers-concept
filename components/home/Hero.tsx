@@ -9,7 +9,7 @@ export function Hero() {
     <section className="relative flex min-h-[100svh] flex-col overflow-hidden bg-indigo-950 pt-28">
       <HeroVideo
         src="https://www.qatarairways.com/pxresource/cdn_root/v/tk-ua/Careers_QatarAirways_EVP_Video.mp4"
-        poster="/brand/qa-hero-main.webp"
+        poster="/brand/home-hero-poster.jpg"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
       {/* scrims: dark left for headline legibility; the brand-purple
